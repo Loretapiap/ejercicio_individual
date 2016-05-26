@@ -1,0 +1,12 @@
+@import '_variables.scss';
+
+@mixin bg-white{background-color: $white;}
+
+@mixin bg-grey{background-color: $grey;}
+
+@mixin bg-bk{background-color: $black;}
+
+@mixin border-g {border-top:2px solid $grey2; border-left: 2px solid $grey2; }
+
+@mixin hr{padding-left: 3%; margin-left: 3%; width: 10%; position: absolute; 
+  left: 0;}

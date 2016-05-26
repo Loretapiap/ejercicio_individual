@@ -1,0 +1,127 @@
+.pd-2 {
+  padding: 2%; }
+
+.pd-5 {
+  padding: 5%; }
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.parallax__layer--base {
+  transform: translateZ(0); }
+  .parallax__layer--base img {
+    width: 100%; }
+  .parallax__layer--base div.bg-white {
+    width: 100%; }
+
+.parallax__layer--back {
+  transform: translateZ(-1px); }
+  .parallax__layer--back img {
+    width: 100%; }
+
+/*nav*/
+.logo {
+  width: 20%;
+  height: auto; }
+
+.bg-white {
+  background-color: #FFFFFF; }
+
+hr.bk {
+  padding-left: 3%;
+  margin-left: 3%;
+  width: 10%;
+  position: absolute;
+  left: 0;
+  border: 2px solid black; }
+
+.col-md-7 div {
+  box-sizing: content-box;
+  padding: 1%;
+  opacity: 0.8;
+  margin: 5% 0 15% 0; }
+  .col-md-7 div img {
+    float: left;
+    padding-right: 1%;
+    opacity: 0.5; }
+  .col-md-7 div p {
+    float: left;
+    width: 87%; }
+
+#part2 {
+  width: 100%;
+  padding: 0;
+  background-image: url(../images/bg3.jpg);
+  background-repeat: repeat; }
+  #part2 div.op {
+    background-color: rgba(0, 0, 0, 0.5); }
+  #part2 div.col-md-6 hr.wh {
+    padding-left: 3%;
+    margin-left: 3%;
+    width: 10%;
+    position: absolute;
+    left: 0;
+    border: 2px solid white; }
+
+#part3 div.col-md-3 h5 {
+  font-weight: bold; }
+#part3 div.col-md-3 small {
+  opacity: 0.5; }
+#part3 div.col-md-3 img {
+  width: 100%; }
+
+#part4 {
+  background-color: #f0f0f1;
+  position: relative; }
+  #part4 img {
+    opacity: 0.3; }
+  #part4 .col-md-3 {
+    border: 10px solid white; }
+    #part4 .col-md-3 h3 {
+      margin-top: 0;
+      font-weight: bold; }
+      #part4 .col-md-3 h3 span {
+        font-size: 200%;
+        font-style: italic; }
+    #part4 .col-md-3 div.black {
+      width: 100%;
+      padding: 2%;
+      margin: 0;
+      position: absolute;
+      left: 0;
+      color: white;
+      background-color: #222222; }
+  #part4 .col-md-6 {
+    border-top: 2px solid #cecece;
+    border-left: 2px solid #cecece;
+    box-sizing: border-box;
+    padding: 3%; }
+  #part4 .col-md-6:first-child {
+    border-left: none; }
+
+#part5 input {
+  margin-bottom: 2%; }
+#part5 textarea {
+  margin-bottom: 4%; }
+#part5 .btn-blue {
+  color: #fff;
+  background-color: #444444;
+  border-color: #ccc; }
+
+body .container-fluid {
+  padding: 0; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
